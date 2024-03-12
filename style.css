@@ -22,4 +22,20 @@ em {
 .itens{
     font-style: italic;
 }
-
+.principal{
+    background-color: #969696;
+    padding: 30px;
+}
+ul{
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+.beneficios{
+    background-color: #969696;
+    padding: 20px;
+}
+.img-beneficios{
+    width: 50%;
+}
