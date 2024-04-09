@@ -30,7 +30,7 @@ nav a{
     text-decoration: none;
 }
 nav a:hover{
-    color: #c78c19;
+    color: #d42020;
     text-decoration: underline;
 }
 .produtos{
@@ -49,7 +49,7 @@ nav a:hover{
     border-radius: 10px;
 }
 .produtos li:hover{
-    border-color: #c78c19;
+    border-color: #d63333f6;
 }
 .produtos li:hover h2{
     font-size: 31px;
@@ -74,4 +74,22 @@ footer{
     color: white;
     font-size: 13px;
     margin: 20px 0 0;
+}
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label {
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+form input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 10px 25px;
+    width: 50%;
 }

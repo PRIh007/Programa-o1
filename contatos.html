@@ -22,28 +22,34 @@
 </header>
 
 <main>
-    <ul class="produtos">
-        <li>
-            <h1>Cabelo</h1>
-            <img src="cabelo.jpg" alt="">
-            <p class="prdutos-descricao">Na tesoura ou máquina, como o cliente preferir</p>
-            <p class="produtos-preco">R$25,00</p>
-        </li>
+    <form>
+        <label for="nomeSobrenome">Nome e Sobrenome</label>
+        <input type="text" id="nomeSobrenome">
 
-        <li>
-            <h1>Barba</h1>
-            <img src="barba.jpg" alt="">
-            <p class="prdutos-descricao">Corte e desenho proficional de barba</p>
-            <p class="produtos-preco">R$18,00</p>
-        </li>
+        <label for="email">Email</label>
+        <input type="text" id="email">
 
-        <li>
-            <h1>Cabelo+Barba</h1>
-            <img src="cabelo+barba.jpg" alt="">
-            <p class="prdutos-descricao">Pacote completo de cabelo e barba</p>
-            <p class="produtos-preco">R$35,00</p>
-        </li>
-    </ul>
+        <label for="telefone">Telefone</label>
+        <input type="text" id="telefone">
+
+        <label for="mensagem">Mensagem</label>
+        <textarea name="" id="mensagem" cols="30" rows="10"></textarea>
+        <div>
+            <p>Como prefere nosso contato?</p>
+            <label for="radio-email">Email</label>
+            <input type="radio" name="contato" id="Email">
+
+            <label for="radio-telefone">Telefone</label>
+            <input type="radio" name="contato" id="radio-telefone">
+
+            <label for="whatsapp">Whatsapp</label>
+            <input type="radio" name="contato" id="whatsapp">
+        </div>
+
+        <label><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por e-mail?</label>
+
+        <input type="submit" value="Enviar Formulário">
+    </form>
 </main>
 
 <footer>
