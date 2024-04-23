@@ -24,24 +24,24 @@
 <main>
     <form>
         <label for="nomeSobrenome">Nome e Sobrenome</label>
-        <input type="text" id="nomeSobrenome" class="input-padrao">
+        <input type="text" id="nomeSobrenome" class="input-padrao" required>
 
         <label for="email">Email</label>
-        <input type="text" id="email" class="input-padrao">
+        <input type="email" id="email" class="input-padrao" required>
 
         <label for="telefone">Telefone</label>
-        <input type="text" id="telefone" class="input-padrao">
+        <input type="text" id="telefone" class="input-padrao" required placeholder="(xx)xxxx-xxxx">
 
         <label for="mensagem">Mensagem</label>
-        <textarea name="" id="mensagem"  cols="30" rows="10" class="input-padrao"></textarea>
+        <textarea name="" id="mensagem"  cols="30" rows="10" class="input-padrao" required></textarea>
 
         <div>
             <p>Como prefere nosso contato?</p>
-            <label for="radio-email"> <input type="radio" name="contato" id="Email">Email</label>
+            <label for="radio-email"> <input type="radio" name="contato" id="Email"> Email</label>
             
-            <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone">Telefone</label>
+            <label for="radio-telefone"> <input type="radio" name="contato" id="radio-telefone"> Telefone</label>
 
-            <label for="whatsapp"> <input type="radio" name="contato" id="whatsapp">Whatsapp</label>
+            <label for="whatsapp"> <input type="radio" name="contato" id="whatsapp" checked> Whatsapp</label>
             
         </div>
 
@@ -54,9 +54,9 @@
             </select>
         </div>
 
-        <label class="checkbox"><input type="checkbox" name="" id="">Gostaria de receber nossas novidades por e-mail?</label>
+        <label class="checkbox"><input type="checkbox" name="" id="" checked> Gostaria de receber nossas novidades por e-mail?</label>
 
-        <input type="submit" value="Enviar Formulário">
+        <input type="submit" value="Enviar Formulário" class="enviar">
     </form>
 </main>
 
