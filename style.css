@@ -112,3 +112,15 @@ form label, form p{
     background: #c20c0cfd;
     transform: scale(1.2);
 }
+table{
+    margin: 20px 0 20px;
+}
+thead{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+td,tr{
+    border: 1px solid black;
+    padding: 8px 15px;
+}
